@@ -10,3 +10,8 @@
 .cardText {
   width: 550px;
 }
+
+.cardLinks {
+  display: flex;
+  align-items: center;
+}

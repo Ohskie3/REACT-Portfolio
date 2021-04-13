@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <>
       <h1 className="contactMe">Contact Me</h1>
+      
       <Row className="contactMe">
         <Col xs="6">
           <Form>
@@ -25,6 +26,7 @@ const Contact = () => {
           </Form>
         </Col>
       </Row>
+      
     </>
   )
 }
