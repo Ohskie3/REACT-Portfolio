@@ -6,8 +6,9 @@ import {
   Switch
  } from 'react-router-dom'
 import Home from './pages/Home'
-import About from './pages/About'
+import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
+import './App.css'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <>
       <Router>
         <div>
+
           <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
@@ -26,10 +28,10 @@ const App = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link active" aria-current="page" href="/about">About</a>
+                      <a className="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="/portfolio">Portfolio</a>
+                      <a className="nav-link" href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -42,12 +44,12 @@ const App = () => {
          <Home />
       </Route>
 
-      <Route path='/about'>
-        <About />
+      <Route path='/portfolio'>
+        <Portfolio />
       </Route>
 
-      <Route path='/portfolio'>
-         <Portfolio />
+      <Route path='/contact'>
+         <Contact />
       </Route>
 
           </Switch>

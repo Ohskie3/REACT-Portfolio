@@ -1,0 +1,12 @@
+#myPic {
+  height: 400px;
+  width: 400px;
+}
+.profileCard {
+  display: flex;
+  align-items: center;
+}
+
+.cardText {
+  width: 550px;
+}
