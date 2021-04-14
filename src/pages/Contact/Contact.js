@@ -1,14 +1,18 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col } from 'reactstrap'
+import {
+  Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col, Card, CardHeader, CardFooter, CardBody,
+  CardTitle, CardText } from 'reactstrap'
 import './Contact.css'
 
 const Contact = () => {
   return (
     <>
-      <h1 className="contactMe">Contact Me</h1>
       
+      <Card className="contactCard">
+        <CardHeader>
+          <h1>Contact Me</h1></CardHeader>
       <Row className="contactMe">
-        <Col xs="6">
+        <Col xs="4">
           <Form>
             <FormGroup>
               <Label for="exampleName">Name</Label>
@@ -19,14 +23,14 @@ const Contact = () => {
               <Input type="Email" name="Email" id="exampleEmail" placeholder="Email..." />
             </FormGroup>
             <FormGroup>
-              <Label for="exampleText">Text Area</Label>
+              <Label for="exampleText">Message</Label>
               <Input type="textarea" name="text" id="exampleText" />
             </FormGroup>
             <Button color="primary">Submit</Button>
           </Form>
         </Col>
       </Row>
-      
+      </Card>
     </>
   )
 }
