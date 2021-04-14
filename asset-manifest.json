@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/REACT-Portfolio/static/css/main.6818a041.chunk.css",
+    "main.js": "/REACT-Portfolio/static/js/main.33ead1d0.chunk.js",
+    "main.js.map": "/REACT-Portfolio/static/js/main.33ead1d0.chunk.js.map",
+    "runtime-main.js": "/REACT-Portfolio/static/js/runtime-main.d6557872.js",
+    "runtime-main.js.map": "/REACT-Portfolio/static/js/runtime-main.d6557872.js.map",
+    "static/js/2.4d104380.chunk.js": "/REACT-Portfolio/static/js/2.4d104380.chunk.js",
+    "static/js/2.4d104380.chunk.js.map": "/REACT-Portfolio/static/js/2.4d104380.chunk.js.map",
+    "index.html": "/REACT-Portfolio/index.html",
+    "static/css/main.6818a041.chunk.css.map": "/REACT-Portfolio/static/css/main.6818a041.chunk.css.map",
+    "static/js/2.4d104380.chunk.js.LICENSE.txt": "/REACT-Portfolio/static/js/2.4d104380.chunk.js.LICENSE.txt",
+    "static/media/BeeWell.cf242f04.png": "/REACT-Portfolio/static/media/BeeWell.cf242f04.png",
+    "static/media/budget.d14ab774.jpg": "/REACT-Portfolio/static/media/budget.d14ab774.jpg",
+    "static/media/freeMarketLogo.8a30f5f7.png": "/REACT-Portfolio/static/media/freeMarketLogo.8a30f5f7.png",
+    "static/media/withhayley.26348012.jpg": "/REACT-Portfolio/static/media/withhayley.26348012.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6557872.js",
+    "static/js/2.4d104380.chunk.js",
+    "static/css/main.6818a041.chunk.css",
+    "static/js/main.33ead1d0.chunk.js"
+  ]
+}
