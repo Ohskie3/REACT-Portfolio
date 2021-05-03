@@ -13,7 +13,9 @@ const Contact = () => {
           <h1>Contact Me</h1></CardHeader>
       <Row className="contactMe">
         <Col xs="4">
-          <Form>
+          <h2>Email:</h2>
+          <h4>kyleohlwiler@gmail.com</h4>
+          {/* <Form>
             <FormGroup>
               <Label for="exampleName">Name</Label>
               <Input type="text" name="name" id="exampleName" placeholder="Name..." />
@@ -27,7 +29,11 @@ const Contact = () => {
               <Input type="textarea" name="text" id="exampleText" />
             </FormGroup>
             <Button color="primary">Submit</Button>
-          </Form>
+          </Form> */}
+        </Col>
+        <Col xs="4">
+          <h2>Phone:</h2>
+          <h4>(949) 547-1111</h4>
         </Col>
       </Row>
       </Card>

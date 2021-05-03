@@ -12,6 +12,7 @@ const Budget = () => {
         <a href="https://calm-chamber-87100.herokuapp.com/" className="btn btn-primary" target="_blank">Link to Project</a>
           <p></p>
         <a href="https://github.com/Ohskie3/Budget-Tracker" className="btn btn-primary" target="_blank">Link to GitHub</a>
+      
         </div>
 </div>
   )
