@@ -5,6 +5,8 @@ import {
 } from 'reactstrap'
 import pic from './withhayley.jpg'
 import './Home.css'
+import resume from './resume.pdf'
+
 
 
 
@@ -21,7 +23,7 @@ const Home = () => {
           <div className="cardLinks">
           <CardLink href="https://www.linkedin.com/in/kyle-ohlwiler-b3b34942/" target="_blank">LinkedIn</CardLink>
           <CardLink href="https://github.com/Ohskie3" target="_blank">GitHub</CardLink>
-          <CardLink href="" target="_blank">My Resumé</CardLink>
+          <CardLink href={resume} target="_blank">My Resumé</CardLink>
           </div>
         </CardBody>
       </Card>
