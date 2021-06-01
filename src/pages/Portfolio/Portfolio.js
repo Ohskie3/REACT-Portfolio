@@ -9,24 +9,27 @@ import './Portfolio.css'
 
 
 
+
 const Portfolio = () => {
   return (
     <>
+      <div className='container'>
 
       <Row  className="cards">
         <Col sm={{ size: 'auto', offset: 1 }}>
-          <Project1 />
+          <Project3 />
         </Col>
         <Col sm={{ size: 'auto', offset: 1 }}>
           <Project2 />
         </Col>
         <Col sm={{ size: 'auto', offset: 1 }}>
-          <Project3 />
+          <Project1 />
         </Col>
         <Col sm={{ size: 'auto', offset: 1 }}>
           <Budget />
         </Col>
       </Row>
+      </div>
 
   </>
   )

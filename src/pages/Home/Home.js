@@ -5,7 +5,10 @@ import {
 } from 'reactstrap'
 import pic from './withhayley.jpg'
 import './Home.css'
-import resume from './resume.pdf'
+// import resume from './resume.pdf'
+import AboutMe from '../../components/AboutMe'
+import Navbar from '../../components/Navbar'
+
 
 
 
@@ -13,7 +16,10 @@ import resume from './resume.pdf'
 const Home = () => {
   return (
     <>
-      <Card className="profileCard">
+      {/* <Navbar /> */}
+      <AboutMe />
+      
+      {/* <Card className="profileCard">
         <CardBody>
           <CardTitle tag="h1">Kyle Ohlwiler</CardTitle>
         </CardBody>
@@ -26,7 +32,7 @@ const Home = () => {
           <CardLink href={resume} target="_blank">My Resumé</CardLink>
           </div>
         </CardBody>
-      </Card>
+      </Card> */}
     
     </>
   )

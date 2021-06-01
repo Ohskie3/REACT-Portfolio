@@ -3,11 +3,32 @@ import {
   Button, Form, FormGroup, Label, Input, FormText, Container, Row, Col, Card, CardHeader, CardFooter, CardBody,
   CardTitle, CardText } from 'reactstrap'
 import './Contact.css'
+import github from '../../components/images/githublogo.png'
+import linkedin from '../../components/images/linkedinlogo.png'
+import instagram from '../../components/images/instagram.png'
+import facebook from '../../components/images/facebook.png'
+
+
+
 
 const Contact = () => {
+
+  const handleLinkedin = () => {
+    window.open('https://www.linkedin.com/in/kyle-ohlwiler-b3b34942/', '_blank')
+  }
+  const handleGithub = () => {
+    window.open('https://github.com/Ohskie3', '_blank')
+  }
+  const handleInstagram = () => {
+    window.open('https://www.instagram.com/ohskie3/', '_blank')
+  }
+  const handleFacebook = () => {
+    window.open('https://www.facebook.com/kyle.ohlwiler', '_blank')
+  }
   return (
     <>
-      
+    
+        
       <Card className="contactCard">
         <CardHeader>
           <h1>Contact Me</h1></CardHeader>
@@ -17,26 +38,36 @@ const Contact = () => {
           <h4>kyleohlwiler@gmail.com</h4>
           {/* <Form>
             <FormGroup>
-              <Label for="exampleName">Name</Label>
-              <Input type="text" name="name" id="exampleName" placeholder="Name..." />
+            <Label for="exampleName">Name</Label>
+            <Input type="text" name="name" id="exampleName" placeholder="Name..." />
             </FormGroup>
             <FormGroup>
-              <Label for="exampleEmail">Email</Label>
-              <Input type="Email" name="Email" id="exampleEmail" placeholder="Email..." />
+            <Label for="exampleEmail">Email</Label>
+            <Input type="Email" name="Email" id="exampleEmail" placeholder="Email..." />
             </FormGroup>
             <FormGroup>
-              <Label for="exampleText">Message</Label>
-              <Input type="textarea" name="text" id="exampleText" />
+            <Label for="exampleText">Message</Label>
+            <Input type="textarea" name="text" id="exampleText" />
             </FormGroup>
             <Button color="primary">Submit</Button>
           </Form> */}
         </Col>
-        <Col xs="4">
+        <Col xs="3">
           <h2>Phone:</h2>
           <h4>(949) 547-1111</h4>
         </Col>
+        <Col xs="4">
+          <div>
+          <img src={linkedin} className="linkedin" onClick={handleLinkedin}/>
+          <img src={github} className="github" onClick={handleGithub}/>
+          <img src={instagram} className="instagram" onClick={handleInstagram}/>
+          <img src={facebook} className="facebook" onClick={handleFacebook}/>
+          </div>
+            {/* <CardLink href='https://www.linkedin.com/in/kyle-ohlwiler-b3b34942/' target="_blank" rel="noreferrer">LinkedIn</CardLink> */}
+        </Col>
       </Row>
       </Card>
+         
     </>
   )
 }

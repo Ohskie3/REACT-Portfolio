@@ -1,4 +1,36 @@
 .contactMe {
   padding-left: 3em;
 }
+.contactCard {
+  margin-top: 1em;
+}
 
+.linkedin {
+  height: 60px;
+  width: 60px;
+}
+.github {
+  height: 60px;
+  width: 60px;
+}
+.instagram {
+  height: 60px;
+  width: 60px;
+}
+.facebook {
+  height: 80px;
+  width: 85px;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+}
+.github:hover {
+  cursor: pointer;
+}
+.instagram:hover {
+  cursor: pointer;
+}
+.facebook:hover {
+  cursor: pointer;
+}
