@@ -2,7 +2,7 @@
   padding-left: 3em;
 }
 .contactCard {
-  margin-top: 1em;
+  margin-top: 5em;
 }
 
 .linkedin {
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .contactCard {
     padding-top: 15em;
   }
