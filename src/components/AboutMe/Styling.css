@@ -1,180 +1,182 @@
 body {
-    /* background-image: url(../../pages/Home/withhayley.jpg); */
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-color: rgb(244, 241, 241);
-    font-family: 'Rambla', sans-serif;
+  /* background-image: url(../../pages/Home/withhayley.jpg); */
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-color: rgb(244, 241, 241);
+  font-family: 'Rambla', sans-serif;
+}
+
+
+
+
+h1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+.cardStart {
+  margin-top: 100px;
+}
+
+.image {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.overlay>* {
+  transform: translateY(30px);
+  transition: transform 0.5s;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.overlay:hover>* {
+  transform: translate(0);
+}
+
+@media screen and (max-width: 375px) {
+  .header1 {
+    margin-left: 150px;
+    margin-top: 0;
   }
-
-  
-
-  
-  h1 {
-    color: black;
-    font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+  img {
+    display: inline-flex;
+    margin-top: 10px;
   }
-  
-
-  
   .cardStart {
-    margin-top: 100px;
+    margin-top: 250px;
   }
-  
-  .image {
-    position: relative;
-    width: 350px;
-    height: 200px;
-    display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 20px;
+  .contact2 {
+    margin-top: 150px;
   }
-  
-  
-  .overlay>* {
-    transform: translateY(30px);
-    transition: transform 0.5s;
+  ul {
+    width: 40px;
+    display: flex;
   }
-  
-  .overlay:hover {
-    opacity: 0.8;
+
+  .timeL {
+    float: left;
   }
-  
-  .overlay:hover>* {
-    transform: translate(0);
-  }
-  
-  @media screen and (max-width: 375px) {
-    .header1 {
-      margin-left: 150px;
-      margin-top: 0;
-    }
-    img {
-      display: inline-flex;
-      margin-top: 10px;
-    }
-    .cardStart {
-      margin-top: 250px;
-    }
-    .contact2 {
-      margin-top: 150px;
-    }
-    ul {
-      width: 40px;
-      display: flex;
-    }
-    .nav1 {
-      position: absolute;
-    }
-    .timeL {
-      float: left;
-    }
-    .skills {
-      margin-top: 150px;
-      margin-left: 0%;
-      width: 100%;
-    }
-    .timeline ul {
-      flex-direction: column;
-      width: 100%;
-      float: none;
-    }
-    .container {
-      flex-direction: column;
-      width: 100%;
-    }
-    .iH {
-      margin-top: 100px;
-    }
-    .social {
-      flex-direction: column;
-    }
-    .myPic {
-        width: 400px;
-        height: 400px;
-    }
-    
-  }
-  
-  .main {
-    margin-left: 20px
-  }
-  
-  .card {
-    margin: 6px;
-  }
-  
-  .styling {
-    background-color: #ffffff;
-    box-shadow: 11px 7px 16px #eeeeee;
-    border: 0;
-    text-align: left;
-    width: 600px;
-  }
-  
-  .ctag {
-    margin-top: 10px;
-  }
-  
-  .btn {
-    background-color: #F68338;
-    color: #ffffff;
-  }
-  
-  .folio {
-    margin-top: 10px;
-  }
-  
-  nav ul li a:hover {
-    color: #F68338;
-    text-decoration: underline;
-  }
-  
-  .container {
-    margin-top: 100px;
+  .skills {
+    margin-top: 150px;
+    margin-left: 0%;
     width: 100%;
   }
-  
-  .image1 {
-    max-height: 300px;
-    width: auto;
-    object-fit: contain;
-    padding-top: 20px;
+  .timeline ul {
+    flex-direction: column;
+    width: 100%;
+    float: none;
   }
-  
-  .submit {
-    width: 116px;
-    float: right;
+  .container {
+    flex-direction: column;
+    width: 100%;
   }
-  
-  .mainImg {
-    width: auto;
-    height: 50px;
+  .iH {
+    margin-top: 100px;
   }
-  
-  label {
-    float: left;
-    color: #F68338;
-    text-transform: uppercase;
-    font-size: 15px;
+  .social {
+    flex-direction: column;
   }
-  
-  .smIcons {
-    height: 20px;
-    width: 20px
-  }
-  
-  ul li a {
-    color: #bebaba;
-    text-decoration: none;
-  }
-  
-  ul li a:hover {
-    color: #F68338;
-    text-decoration: underline;
-  }
-
   .myPic {
       width: 400px;
-      height: 400px;
+      height: 450px;
+      padding-top: 150px;
   }
+  .about {
+    width: 250px;
+  }
+  
+}
+
+.main {
+  margin-left: 20px
+}
+
+.card {
+  margin: 6px;
+}
+
+.styling {
+  background-color: #ffffff;
+  box-shadow: 11px 7px 16px #eeeeee;
+  border: 0;
+  text-align: left;
+  width: 600px;
+}
+
+.ctag {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #F68338;
+  color: #ffffff;
+}
+
+.folio {
+  margin-top: 10px;
+}
+
+nav ul li a:hover {
+  color: #F68338;
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.image1 {
+  max-height: 300px;
+  width: auto;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+.submit {
+  width: 116px;
+  float: right;
+}
+
+.mainImg {
+  width: auto;
+  height: 50px;
+}
+
+label {
+  float: left;
+  color: #F68338;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.smIcons {
+  height: 20px;
+  width: 20px
+}
+
+ul li a {
+  color: #bebaba;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #F68338;
+  text-decoration: underline;
+}
+
+.myPic {
+    width: 400px;
+    height: 400px;
+}

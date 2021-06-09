@@ -7,6 +7,7 @@ import github from '../../components/images/githublogo.png'
 import linkedin from '../../components/images/linkedinlogo.png'
 import instagram from '../../components/images/instagram.png'
 import facebook from '../../components/images/facebook.png'
+import Navbar from '../../components/Navbar'
 
 
 
@@ -27,44 +28,30 @@ const Contact = () => {
   }
   return (
     <>
-    
-        
+      <Navbar />
+      
       <Card className="contactCard">
         <CardHeader>
           <h1>Contact Me</h1></CardHeader>
       <Row className="contactMe">
-        <Col xs="4">
+        <Row>
           <h2>Email:</h2>
           <h4>kyleohlwiler@gmail.com</h4>
-          {/* <Form>
-            <FormGroup>
-            <Label for="exampleName">Name</Label>
-            <Input type="text" name="name" id="exampleName" placeholder="Name..." />
-            </FormGroup>
-            <FormGroup>
-            <Label for="exampleEmail">Email</Label>
-            <Input type="Email" name="Email" id="exampleEmail" placeholder="Email..." />
-            </FormGroup>
-            <FormGroup>
-            <Label for="exampleText">Message</Label>
-            <Input type="textarea" name="text" id="exampleText" />
-            </FormGroup>
-            <Button color="primary">Submit</Button>
-          </Form> */}
-        </Col>
-        <Col xs="3">
+        </Row>
+        <hr/>
+        <Row>
           <h2>Phone:</h2>
           <h4>(949) 547-1111</h4>
-        </Col>
-        <Col xs="4">
+        </Row>
+        <hr/>
+        <Row>
           <div>
           <img src={linkedin} className="linkedin" onClick={handleLinkedin}/>
           <img src={github} className="github" onClick={handleGithub}/>
           <img src={instagram} className="instagram" onClick={handleInstagram}/>
           <img src={facebook} className="facebook" onClick={handleFacebook}/>
           </div>
-            {/* <CardLink href='https://www.linkedin.com/in/kyle-ohlwiler-b3b34942/' target="_blank" rel="noreferrer">LinkedIn</CardLink> */}
-        </Col>
+        </Row>
       </Row>
       </Card>
          

@@ -6,6 +6,7 @@ import Project2 from '../../components/Project2'
 import Project3 from '../../components/Project3'
 import Budget from '../../components/Budget'
 import './Portfolio.css'
+import Navbar from '../../components/Navbar'
 
 
 
@@ -13,6 +14,7 @@ import './Portfolio.css'
 const Portfolio = () => {
   return (
     <>
+    <Navbar />
       <div className='container'>
 
       <Row  className="cards">
@@ -30,6 +32,7 @@ const Portfolio = () => {
         </Col>
       </Row>
       </div>
+
 
   </>
   )

@@ -23,7 +23,7 @@ const App = () => {
       <Router>
         <div>
 
-          <Navbar />
+          {/* <Navbar /> */}
           <Switch>
 
       <Route exact path='/'>

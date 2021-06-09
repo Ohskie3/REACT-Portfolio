@@ -1,8 +1,11 @@
 import './Styling.css'
 import pic from '../images/withhayley.jpg'
+import Navbar from '../Navbar'
 
 const AboutMe = () => {
     return (
+      <>
+      <Navbar />
         <div className="container">
           <div className="row">
           <img src={pic} className="myPic"/>
@@ -10,7 +13,7 @@ const AboutMe = () => {
               <h6 className="iH">Full Stack Developer</h6>
               <h1>KYLE OHLWILER</h1>
               
-              <div className="about styling">
+              <div className="about">
     
                 <p>
                   Hello!
@@ -29,6 +32,7 @@ const AboutMe = () => {
            </div>
         </div>
       </div>
+     </> 
     )
   }
 
